@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(154, 201, 228);
+    color: white;
+    height: 50px;
+    
+}
+ul{
+    margin:0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+}
+li:first-child {
+    font-size: xx-large;
+    font-weight: bold;
+}
+li:nth-child(n+2) {
+    font-size: x-large;
+}
+.container{
+    padding: 0 50px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 3px black;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px; 
+    margin-top: 20px;
+    
+}
+
+.card{
+    background-color: rgb(241, 239, 239);
+    border: solid 1px black;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-time{
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.temperature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+.temperature div {
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+.max{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.min{
+    color: rgb(104, 123, 231);
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    border: 2px solid black;
+    margin: 0 50px;
+    gap: 15px;
+    padding: 0 20px;
+    position: fixed;
+    bottom: 10px;
+    width: 89.5%;
+}
+
+.acept{
+    width: 70px;
+    background-color: rgb(165, 165, 228);
+}
+
